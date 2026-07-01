@@ -1,0 +1,14 @@
+# app-ads.txt — Mizly Studio
+# Authorized digital sellers (IAB Tech Lab spec) for ALL Mizly Studio apps.
+# Hosted at: https://lemmy-code.github.io/app-ads.txt
+# Set this domain (https://lemmy-code.github.io) as the "developer website" on
+# each game's Google Play store listing so AdMob / LevelPlay crawlers can verify it.
+# The seller lines are ACCOUNT-level (shared AdMob pub id + shared ironSource acct),
+# so one file authorizes the whole portfolio: MergeMob, Ascend, and future games.
+
+# --- Google AdMob (account pub id pub-5873978416365162) ---
+google.com, pub-5873978416365162, DIRECT, f08c47fec0942fa0
+
+# --- LevelPlay / ironSource + Unity Ads bidder lines: TO BE APPENDED ---
+# Generate the exact account-specific lines from the LevelPlay dashboard
+# app-ads.txt generator (do NOT hand-write seller ids) and paste them below.
